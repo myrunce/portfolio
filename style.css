@@ -1,0 +1,54 @@
+#wrapper{
+width: 1000px;
+height: 1300px;
+background-color: #f6f6f6;
+}
+#header h1{
+    display: inline-block;
+    text-align: left;
+    margin-left: 20px;
+}
+#header h2{
+    display: inline-block;   
+    float: right;
+    margin-right: 20px;
+}
+#main{
+    width: 1000px;
+    height:1100px;
+    background: radial-gradient(#6f5964, #1c0c10);
+    position: relative;
+    top: 5px
+}
+#aboutPic{
+    width: 420px;
+    height: 300px;
+    margin: 20px;
+    background-color: #bab9ba;
+    padding: 5px;
+    display: inline-block;
+}
+#about{
+
+}
+#laMode{
+
+}
+#laModetech{
+
+}
+#familyContacts{
+
+}
+#familyContactstech{
+
+}
+#fiveEleven{
+
+}
+#fiveElevenTech{
+
+}
+#footer{
+
+}
