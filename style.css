@@ -6,49 +6,148 @@ background-color: #f6f6f6;
 #header h1{
     display: inline-block;
     text-align: left;
+    width: 500px;
     margin-left: 20px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 #header h2{
     display: inline-block;   
-    float: right;
+    text-align: right;
     margin-right: 20px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 #main{
     width: 1000px;
     height:1100px;
     background: radial-gradient(#6f5964, #1c0c10);
     position: relative;
-    top: 5px
+    top: 5px;
 }
 #aboutPic{
     width: 420px;
     height: 300px;
-    margin: 20px;
+    margin: 15px;
     background-color: #bab9ba;
     padding: 5px;
     display: inline-block;
 }
 #about{
-
+    background: linear-gradient(to right, #fdfcfd , #dbcdda);
+    width: 520px;
+    height: 310px;
+    display: inline-block;  
+    text-align: left;
+    vertical-align: top;
+    margin-top: 15px;
+}
+#about h2{
+background: linear-gradient(#b2b2b5, #878593, #b2b2b5);
+height: 30px;
+padding: 20px;
+vertical-align: top;
+margin-top: 0;
+color: white;
+font-family: Arial, Helvetica, sans-serif
+}
+#about p, a{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.info-box-col{
+    background: linear-gradient(to right, #fdfcfd , #dbcdda);
+    height: 740px;
+    width: 310px;
+    display: inline-block;
 }
 #laMode{
-
+    margin: 0px 15px 15px 15px;
+    vertical-align: top;
 }
-#laModetech{
-
+#laMode p{
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 60px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.tech{
+    padding: 3px;
+}
+#laMode h2, #familyContacts h2, #fiveEleven h2{
+    background: linear-gradient(#b2b2b5, #878593, #b2b2b5);
+    height: 30px;
+    padding: 20px;
+    vertical-align: top;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#lamode h3, #familycontacts h3, #fiveEleven h3{
+    background: linear-gradient(#b2b2b5, #878593, #b2b2b5);
+    height: 30px;
+    padding: 20px;
+    vertical-align: top;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+#laMode a{
+    text-align: center;
+    background-color: #2e614a;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-left: 120px;
+    
 }
 #familyContacts{
-
+    margin-right: 15px;
 }
-#familyContactstech{
-
+#familyContacts p{
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+#familycontacts a{
+    text-align: center;
+    background-color: #2e614a;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-left: 100px;
+    box-shadow: 3px 3px black;
 }
 #fiveEleven{
-
+    vertical-align: top;
 }
-#fiveElevenTech{
-
+#fiveEleven a{
+    text-align: center;
+    background-color: #2e614a;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-left: 110px;
+    box-shadow: 3px 3px black;
+}
+#fiveEleven p{
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif
+    
 }
 #footer{
-
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
+#footer a{
+    color: black;
+}
+
